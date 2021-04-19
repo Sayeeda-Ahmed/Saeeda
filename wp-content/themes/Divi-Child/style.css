@@ -11,7 +11,7 @@
 }
 
 .entry-content ul li::before {
-    content: "\0000";
+    content: "\2022";
     color: #7dcbbd;
     font-weight: bold;
     display: inline-block;
@@ -24,12 +24,5 @@
     display: none;
 }
 
-.et_pb_text_inner .entry-content ul li::before {
-    content: "\0000";
-    color: #c92027;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
+
 
